@@ -10,7 +10,7 @@ var level = 0;
 
 
 //Inputs
-$(document).keypress(function() {
+$(document).keydown(function() {
   if (!isStarted) {
     $("#level-title").text("Level " + level);
     nextSequence();
@@ -18,8 +18,15 @@ $(document).keypress(function() {
   }
 });
 
-$(".btn").click(function() {
+$(document).click(function() {
+  if (!isStarted) {
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    isStarted = true;
+  }
+});
 
+$(".btn").click(function() {  
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
 
