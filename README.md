@@ -1,6 +1,6 @@
 # Web Development Examples
 ## Dice Challenge (Vanilla javascript)
-https://ismaildemircann.github.io/Web-Development-JavaScript/Dicee%20Challenge/
+https://ismaildemircann.github.io/Web-Development-JavaScript/Dicee%20Challenge/dicee.html
 ## Drum Kit (Vanilla javascript)
 https://ismaildemircann.github.io/Web-Development-JavaScript/Drum%20Kit/
 ## Simon Game (jQuery)
