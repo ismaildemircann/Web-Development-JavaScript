@@ -23,7 +23,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             document.querySelector('#current-' + activePlayer).textContent = roundScore;
         } else {
             //Next player
-            var fail = new Audio("sounds/fail.wav");
+            var fail = new Audio("sounds/fail.mp3");
             fail.play();
             nextPlayer();
 
@@ -53,7 +53,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
         
         // Check if player won the game
         if (scores[activePlayer] >= winningScore) {
-            var win = new Audio("sounds/win.wav");
+            var win = new Audio("sounds/win.mp3");
             win.play();
             document.querySelector('#name-' + activePlayer).textContent = 'Winner!';
             document.getElementById('dice-1').style.display = 'none';
