@@ -5,3 +5,5 @@ https://ismaildemircann.github.io/Web-Development-JavaScript/Dicee%20Challenge/d
 https://ismaildemircann.github.io/Web-Development-JavaScript/Drum%20Kit/index.html
 ## Simon Game (jQuery)
 https://ismaildemircann.github.io/Web-Development-JavaScript/Simon%20Game/
+## Pig Game (Vanilla javascript)
+https://ismaildemircann.github.io/Web-Development-JavaScript/Pig%20Game/index.html
