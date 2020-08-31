@@ -9,7 +9,11 @@ var budgetController = (function() {
 // UI CONTROLLER
 var UIController = (function() {
 
-    // Some code
+   return {
+       getInput: function {
+           
+       }
+   } 
 
 })();
 
@@ -19,6 +23,7 @@ var controller = (function(budgetCtrl, UICtrl) {
     var ctrlAddItem = function() {
         
         // 1. Get the filed input data
+
 
         // 2. Add the item to the budget controller
 
