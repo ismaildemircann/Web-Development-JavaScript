@@ -9,3 +9,4 @@ https://ismaildemircann.github.io/Web-Development-JavaScript/Simon%20Game/
 https://ismaildemircann.github.io/Web-Development-JavaScript/Pig%20Game/
 ## Budgety (Vanilla javascript)
 https://ismaildemircann.github.io/Web-Development-JavaScript/Budgety/
+## Forkify
